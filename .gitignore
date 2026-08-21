@@ -1,0 +1,50 @@
+# === Environment & Secrets ===
+.env
+.env.*
+!.env.example
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# === Node.js / Frontend ===
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# === Docker ===
+docker-compose.override.yml
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === Reports & Artifacts ===
+reports/*.pdf
+reports/*.html
+reports/*.sarif
+*.log
+
+# === Workspaces ===
+workspaces/
+
+# === OS ===
+Desktop.ini
+$RECYCLE.BIN/
